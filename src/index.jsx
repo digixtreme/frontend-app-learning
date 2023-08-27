@@ -38,6 +38,7 @@ import PathFixesProvider from './generic/path-fixes';
 import LiveTab from './course-home/live-tab/LiveTab';
 import CourseAccessErrorPage from './generic/CourseAccessErrorPage';
 import DecodePageRoute from './decode-page-route';
+import './custom.scss';
 
 subscribe(APP_READY, () => {
   ReactDOM.render(

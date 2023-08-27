@@ -1,0 +1,19 @@
+/*Hide Instructor toolbar*/
+div[data-testid="instructor-toolbar"] {
+    display: none;
+}
+
+/*Hide copyright*/
+.sequence-container + div {
+    display: none;
+}
+
+.sequence-container {
+    margin-bottom: 0px;
+}
+
+/*Hide Header, Footer*/
+.learning-header,
+.footer {
+    display: none !important;
+}
