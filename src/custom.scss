@@ -1,19 +1,22 @@
 /*Hide Instructor toolbar*/
-div[data-testid="instructor-toolbar"] {
-    display: none;
-}
+iframe[name="edx_lms"] {
 
-/*Hide copyright*/
-.sequence-container + div {
-    display: none;
-}
+    div[data-testid="instructor-toolbar"] {
+        display: none;
+    }
 
-.sequence-container {
-    margin-bottom: 0px;
-}
+    /*Hide copyright*/
+    .sequence-container + div {
+        display: none;
+    }
 
-/*Hide Header, Footer*/
-.learning-header,
-.footer {
-    display: none !important;
+    .sequence-container {
+        margin-bottom: 0px;
+    }
+
+    /*Hide Header, Footer*/
+    .learning-header,
+    .footer {
+        display: none !important;
+    }
 }
