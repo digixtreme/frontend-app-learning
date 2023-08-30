@@ -1,5 +1,5 @@
 /*Hide Instructor toolbar*/
-iframe[name="edx_lms"] {
+.d2l-mfe-learning {
 
     div[data-testid="instructor-toolbar"] {
         display: none;
