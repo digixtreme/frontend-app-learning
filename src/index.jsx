@@ -42,7 +42,7 @@ import './custom.scss';
 subscribe(APP_READY, () => {
   let clsName = "";
   if(window !== undefined && window.name !== undefined && window.name === "edx_lms")
-    clsName = "d2l-lms-learning"
+    clsName = "d2l-mfe-learning"
   ReactDOM.render(
     <AppProvider store={initializeStore()}>
       <div className={`${clsName}`}>
