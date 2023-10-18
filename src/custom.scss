@@ -19,4 +19,23 @@
     .footer {
         display: none !important;
     }
+
+    /*Hide course tab navigation*/
+    .course-tabs-navigation {
+        display: none!important 
+    }
+
+    .course-outline-tab > .col-md-8 {
+        flex: unset !important;
+        max-width: 100% !important;
+    }
+
+    .course-outline-tab > .col-md-4 {
+        display: none!important 
+    }
+
+    /*Notification Button*/
+    .container-xl .d-flex.ml-auto .mt-3 {
+        display: none!important 
+    }
 }
