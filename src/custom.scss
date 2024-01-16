@@ -41,5 +41,75 @@
     
     .sequence-navigation .btn.complete {
         background-color: rgb(252 251 253) !important;
+        color: #707070 !important;
     }
+
+    #main-content nav[aria-label="breadcrumb"] ol li a,
+    #main-content nav[aria-label="breadcrumb"] ol li .pgn__menu-select-trigger-btn {
+        color: rgb(6 17 79) !important;  
+    }
+
+    #main-content nav[aria-label="breadcrumb"] {
+        margin-bottom: 0.7rem !important;
+        margin-top: 0.7rem !important;
+        padding-left: 0px !important;
+    }
+
+    #main-content nav[aria-label="breadcrumb"] ol li .pgn__menu-select-trigger-btn:hover {
+        background:transparent !important;  
+    }
+
+    .sequence-navigation .next-btn,
+    .sequence-navigation .previous-btn{
+        color: rgb(6 17 79) !important;
+    }
+
+    .unit-navigation .previous-button,
+    .unit-navigation .next-button{
+        border-color: rgb(91 53 147) !important;
+        color: rgb(91 53 147) !important; 
+    }
+
+    .unit-navigation .previous-button:hover,
+    .unit-navigation .next-button:hover {
+        background: rgb(239 235 244) !important;
+    }
+
+
+    .sequence-container .unit-iframe-wrapper {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .sequence-container .unit-container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .sequence-container .unit-container h1,
+    .sequence-container .unit-container h2 {
+        padding-left: 18px !important;
+    }
+
+    .sequence-container .unit-container button{
+        padding-left: 25px !important;
+    }
+
+    .sequence-container .unit-container .unit h1 {
+        padding-left: 18px !important;
+    }
+    
+    .sequence-container .unit-container .unit button {
+        padding-left: 25px !important;
+    }
+
+    .d2l-mfe-learning #main-content nav[aria-label="breadcrumb"] ol li:nth-child(1),
+    .d2l-mfe-learning #main-content nav[aria-label="breadcrumb"] ol li:nth-child(2){
+        display: none !important;
+    }
+
+    #main-content nav[aria-label="breadcrumb"] ol li a:focus {
+        text-decoration: underline;
+    }
+
 }
