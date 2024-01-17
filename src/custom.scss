@@ -75,7 +75,6 @@
         background: rgb(239 235 244) !important;
     }
 
-
     .sequence-container .unit-iframe-wrapper {
         margin-left: 0px !important;
         margin-right: 0px !important;
@@ -103,8 +102,8 @@
         padding-left: 25px !important;
     }
 
-    .d2l-mfe-learning #main-content nav[aria-label="breadcrumb"] ol li:nth-child(1),
-    .d2l-mfe-learning #main-content nav[aria-label="breadcrumb"] ol li:nth-child(2){
+    #main-content nav[aria-label="breadcrumb"] ol li:nth-child(1),
+    #main-content nav[aria-label="breadcrumb"] ol li:nth-child(2){
         display: none !important;
     }
 
